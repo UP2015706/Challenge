@@ -27,8 +27,8 @@ Getting stock data has a **10% chance of failure** (by design). The application 
 * Query the backend for data about each stock.
 * Hide the spinner after all data is loaded.
 * Plot the stock data on the chart (as a line chart).
-* Display a chart legend (which line correspond to which stock).
-* Each stock should be plotted visually different (for example in different colour).
+* Display a chart legend (which line corresponds to which stock).
+* Each stock should be plotted visually different (for example in a different colour).
 * Display error message if some stock could not be loaded (that stock should not be plotted, but other stocks should still be plotted).
 * Describe the chart axes.
 * Fix backend to return a meaningful error message when stock data cannot be retrieved (now the request just hangs!).
