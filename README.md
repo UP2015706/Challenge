@@ -44,3 +44,4 @@ Getting stock data has a **10% chance of failure** (by design). The application 
 
 * To submit your solution please generate a **patch** from your changes and email it back to the STX Next recruiter that contacted you earlier.
 * Don't worry if you didn't manage to fulfill *all* objectives. We will be happy to see partial solutions as well!
+* Please **don't fork** this repository. We wouldn't want other candidates to base their work off your code!
