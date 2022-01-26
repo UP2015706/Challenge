@@ -1,14 +1,39 @@
-# STXNext JS recruitment task
+# Javascript Recruitment Task
 
-Welcome to the STXNext JavaScript recruitment task.
+Javascript recruitment task
 
-This task was developed in order to test the basic skillset of a JavaScript developer.
+## Introduction
+
+This takehome task was developed in order to test the basic skillset of a JavaScript developer.
 
 The task consists of backend and frontend functionalities.
 
-You don't do backend? Remember that the *ability to learn* is the most sought quality in a developer!
+You arent expected to spend more than 30-60 minutes on this task (we repect your time, you dont have to complete the task).
 
-First, clone this repo and install backend dependencies. Run the backend service.
+You are free to use the internet but must solve this task yourself.
+
+Keep track of the thought process and resources you used to complete this task, as you will be asked to explain your thought process in your interview.
+
+## How to use
+
+Install Git and NodeJS on your system
+
+Create a private repo in your github account (do not fork via github!)
+
+Then clone the contents of this repo into it:
+```sh
+git clone https://github.com/ethull/recruitment-js-challenge.git
+cd recruitment-js-challenge
+git remote rename origin upstream
+git remote add origin https://github.com/your_github_account/your-repo.git
+git push -u origin
+```
+
+Install backend dependencies with npm
+
+Run the backend service, and serve static files with npm
+
+Once complete add your interviewer company contact as a collaborator to your repo
 
 ## The application
 
@@ -26,22 +51,14 @@ Getting stock data has a **10% chance of failure** (by design). The application 
 * Query the backend for list of available stocks.
 * Query the backend for data about each stock.
 * Hide the spinner after all data is loaded.
+* Log to the console the result stock data in a structured way.
+* Fix backend (app.js) to return a meaningful error message when stock data cannot be retrieved (now the request just hangs!).
+
+Additional (if you have time)
 * Plot the stock data on the chart (as a line chart).
-* Display a chart legend (which line corresponds to which stock).
-* Each stock should be plotted visually different (for example in a different colour).
-* Display error message if some stock could not be loaded (that stock should not be plotted, but other stocks should still be plotted).
-* Describe the chart axes.
-* Fix backend to return a meaningful error message when stock data cannot be retrieved (now the request just hangs!).
 
 ## Constraints
 
 * You are **not** to modify the code in `stocks.js`
 * The stocks API is designed to return errors sometimes. The application should gain the ability to cope with that.
 * You can use the provided mini-API for canvas operations, but you can also use other solution.
-* We highly encourage you to use `fetch` API for making backend queries from the frontend.
-
-## Submission
-
-* To submit your solution please generate a **patch** from your changes and email it back to the STX Next recruiter that contacted you earlier.
-* Don't worry if you didn't manage to fulfill *all* objectives. We will be happy to see partial solutions as well!
-* Please **don't fork** this repository. We wouldn't want other candidates to base their work off your code!
