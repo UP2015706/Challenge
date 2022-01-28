@@ -8,7 +8,7 @@ This takehome task was developed in order to test the basic skillset of a JavaSc
 
 The task consists of backend and frontend functionalities.
 
-You arent expected to spend more than 30-60 minutes on this task (we repect your time, you dont have to complete the task).
+You aren’t expected to spend more than 30-60 minutes on this task (we respect your time, you don’t have to complete the task).
 
 You are free to use the internet but must solve this task yourself.
 
