@@ -12,13 +12,13 @@ You arent expected to spend more than 30-60 minutes on this task (we repect your
 
 You are free to use the internet but must solve this task yourself.
 
-Keep track of the thought process and resources you used to complete this task, as you will be asked to explain your thought process in your interview.
+During your interview you will be asked to present (in any way you like) your thought process on how you when about completing this task.
 
 ## How to use
 
-Install Git and NodeJS on your system
+Install Git and NodeJS on your system.
 
-Create a private repo in your github account (do not fork via github!)
+Create a repo in your github account (do not fork via github!).
 
 Then clone the contents of this repo into it:
 ```sh
@@ -29,11 +29,13 @@ git remote add origin https://github.com/your_github_account/your-repo.git
 git push -u origin
 ```
 
-Install backend dependencies with npm
+Install backend dependencies with npm.
 
-Run the backend service, and serve static files with npm
+Run the backend service, and serve static files with npm.
 
-Once complete add your interviewer company contact as a collaborator to your repo
+Once complete share your github repo url with your company contact.
+
+Then prepare whatever method you would like to present.
 
 ## The application
 
@@ -47,7 +49,7 @@ Getting stock data has a **10% chance of failure** (by design). The application 
 
 ## Mission objectives
 
-* Display the spinner while data is loading. Make the spinner rotate using CSS3.
+* Make the spinner rotate using CSS3.
 * Query the backend for list of available stocks.
 * Query the backend for data about each stock.
 * Hide the spinner after all data is loaded.
