@@ -4,11 +4,19 @@
   "description": "STXNext JS recruitment test",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UP2015706/Challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UP2015706/Challenge/issues"
+  },
+  "homepage": "https://github.com/UP2015706/Challenge#readme"
 }
